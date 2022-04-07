@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "c:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj": {}
+    "C:\\Users\\julienfrancoiscollin\\source\\repos\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj": {}
   },
   "projects": {
-    "c:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj": {
+    "C:\\Users\\julienfrancoiscollin\\source\\repos\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
+        "projectUniqueName": "C:\\Users\\julienfrancoiscollin\\source\\repos\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
         "projectName": "MailContainerTest",
-        "projectPath": "c:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
-        "packagesPath": "C:\\Users\\andrew.witherley\\.nuget\\packages\\",
-        "outputPath": "c:\\repos\\test\\MailContainerTest\\MailContainerTest\\MailContainerTest\\obj\\",
+        "projectPath": "C:\\Users\\julienfrancoiscollin\\source\\repos\\MailContainerTest\\MailContainerTest\\MailContainerTest.csproj",
+        "packagesPath": "C:\\Users\\julienfrancoiscollin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julienfrancoiscollin\\source\\repos\\MailContainerTest\\MailContainerTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\andrew.witherley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julienfrancoiscollin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -40,12 +41,12 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

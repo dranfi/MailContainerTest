@@ -2,15 +2,15 @@
 
 namespace MailContainerTest.Data
 {
-    public class MailContainerDataStore
+    public class MailContainerDataStore : IMailContainerDataStore
     {
-        public MailContainer GetMailContainer(string mailContainerNumber)
+        public virtual MailContainer GetMailContainer(int mailContainerNumber)
         {   
             // Access the database and return the retrieved mail container. Implementation not required for this exercise.
             return new MailContainer();
         }
 
-        public void UpdateMailContainer(MailContainer mailContainer)
+        public virtual void UpdateMailContainer(MailContainer mailContainer)
         {
             // Update mail container in the database. Implementation not required for this exercise.
         }

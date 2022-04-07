@@ -32,3 +32,9 @@ You should add suitable tests into the MailContainerTest.Test project.
 
 There are no additional constraints, use the packages and approach you feel appropriate, aim to spend no more than 2 hours. Please update the readme with specific comments on any areas that are unfinished and what you would cover given more time.
 
+### Results
+Given more time I would have created an app.config for the datastore and implemented example of IMailContainerDataStore.GetMailContainer(int mailContainerNumber) and IMailContainerDataStore.UpdateMailContainer(MailContainer mailContainerNumber) by reading/writing to a local json file.
+Given more time I would have installed .NET 6 on my machine to deploy the solution in .NET6 rather than .NET5
+I would add more test cases of MailTransferService.
+I would have prefer to Mock DataStoreType, MailContainerDataStore and BackupMailContainerDataStore instead of setting them directly but they would need to be virtual.
+Given the requirement ask for 1 allowed type, I simplified the solution by removing AlloweType and just using MailType allowing only 1 type to be set rather than a bitewise setting of the Enum.

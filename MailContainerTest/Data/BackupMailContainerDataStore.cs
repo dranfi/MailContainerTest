@@ -2,9 +2,9 @@
 
 namespace MailContainerTest.Data
 {
-    public class BackupMailContainerDataStore
+    public class BackupMailContainerDataStore : IMailContainerDataStore
     {
-        public MailContainer GetMailContainer(string mailContainerNumber)
+        public MailContainer GetMailContainer(int mailContainerNumber)
         {
             // Access the database and return the retrieved mail container. Implementation not required for this exercise.
             return new MailContainer();
